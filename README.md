@@ -1,4 +1,4 @@
-# Assignment 1 
+# Assignment 1  
 
 ## Overview
 This project implements and benchmarks several classic algorithms in Java:
@@ -65,7 +65,7 @@ Discussion – constant-factor effects such as cache locality and garbage collec
 ##  Results
 
 ### Runtime vs Input Size
-![Runtime vs Input Size](images/runtime.vs.n.png)
+![Runtime vs Input Size](images/runtime_vs_n.png)
 
 ### Recursion Depth vs Input Size
 ![Recursion Depth vs Input Size](images/depth_vs_n.png)
