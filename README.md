@@ -68,3 +68,11 @@ all 1000,5000 1
 
 # Run only QuickSort on n=10000 and 20000, 2 trials
 
+## Summary
+
+- **MergeSort** and **Closest Pair** both demonstrated the expected Θ(n log n) behavior. The runtime grows nearly linearly on a logarithmic scale, matching the theoretical recurrence.
+- **QuickSort** also shows expected average-case Θ(n log n) runtime, but its recursion depth is higher than MergeSort. On larger inputs, effects of random pivots and cache locality become visible.
+- **Deterministic Select (Median-of-Medians)** runs in Θ(n), but due to large constant factors it is slower than sorting on small to medium inputs.
+- The differences observed in the plots reflect both asymptotic complexity and constant-factor effects such as allocations, cache behavior, and garbage collection.
+
+
