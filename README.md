@@ -1,4 +1,4 @@
-# Assignment 1 – Algorithm Benchmarks
+# Assignment 1 
 
 ## Overview
 This project implements and benchmarks several classic algorithms in Java:
@@ -62,6 +62,14 @@ Runtime vs Input Size – compare all algorithms.
 Recursion Depth vs Input Size – compare MergeSort and QuickSort.
 
 Discussion – constant-factor effects such as cache locality and garbage collection overhead.
+##  Results
+
+### Runtime vs Input Size
+![Runtime vs Input Size](images/runtime.vs.n.png)
+
+### Recursion Depth vs Input Size
+![Recursion Depth vs Input Size](images/depth_vs_n.png)
+
 
 Examples:
 ```bash
@@ -69,5 +77,10 @@ Examples:
 all 1000,5000 1
 
 # Run only QuickSort on n=10000 and 20000, 2 trials
-quicksort 10000,20000 2
+quicksort 10000,20000 #
+
+
+
+
+
 
