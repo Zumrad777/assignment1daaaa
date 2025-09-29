@@ -7,7 +7,7 @@ import algo.geometry.Point2D;
 import algo.geometry.ClosestPair;
 import metrics.PerformanceTracker;
 import metrics.DepthTracker;
-import Util.CsvWriter; // если у тебя пакет называется `util`, поменяй здесь на `util.CsvWriter`
+import Util.CsvWriter; 
 
 import java.util.Arrays;
 import java.util.Random;
