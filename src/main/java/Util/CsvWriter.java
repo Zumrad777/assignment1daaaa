@@ -1,6 +1,4 @@
 package Util;
-// ⚠️ Если папка у тебя называется маленькими буквами (util), тогда здесь должно быть:
-// package util;
 
 import java.io.FileWriter;
 import java.io.IOException;
